@@ -25,6 +25,8 @@
 
 * [自定义事件总结]()
 
+* [匿名函数与具名函数](basic/function/NFE.md)
+
 * [JavaScript 排序算法](basic/sort/index.md)
 
 * [浅拷贝 & 深拷贝]()
@@ -35,7 +37,7 @@
 
 * [设计模式篇]()
 
-* [模块规范]()
+* [JavaScript Modules](basic/module/index.md)
 
 * [back forward cache 解决方案]()
 
