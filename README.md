@@ -61,4 +61,4 @@
 
 ## 实践类
 
-* [区划代码 node 版爬虫尝试](practice/division-code/index.md)
+* [区划代码 node 版爬虫尝试](./practice/division-code/index.md)
