@@ -50,10 +50,10 @@ var a = 2;
 
 * [IE6 IE7 IE8 的函数声明和函数表达式的实现与其他浏览器有差异](http://w3help.org/zh-cn/causes/SJ9001)
 
-*[Named function expressions demystified（命名函数表达式揭秘英文版）](https://kangax.github.io/nfe/)
+* [Named function expressions demystified（命名函数表达式揭秘英文版）](https://kangax.github.io/nfe/)
 
-*[命名函数表达式揭秘](http://justjavac.com/named-function-expressions-demystified.html#jscript-bugs)
+* [命名函数表达式揭秘](http://justjavac.com/named-function-expressions-demystified.html#jscript-bugs)
 
-*[JavaScript 匿名函数有哪几种执行方式?](https://www.zhihu.com/question/20249179)
+* [JavaScript 匿名函数有哪几种执行方式?](https://www.zhihu.com/question/20249179)
 
-*[babel online](http://babeljs.io/repl/)
+* [babel online](http://babeljs.io/repl/)

@@ -100,16 +100,16 @@ ES6 中为模块增加了一级语法支持。ES6 模块的 API 是静态的，�
 
 参考：
 
-*[What Is AMD, CommonJS, and UMD?](http://davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/)
+* [What Is AMD, CommonJS, and UMD?](http://davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/)
 
-*[CommonJS规范--阮一峰](http://javascript.ruanyifeng.com/nodejs/module.html)
+* [CommonJS规范--阮一峰](http://javascript.ruanyifeng.com/nodejs/module.html)
 
-*[Idempotence of ComomnJS to CommonJS2 bundling operation?](https://github.com/webpack/webpack/issues/864)
+* [Idempotence of ComomnJS to CommonJS2 bundling operation?](https://github.com/webpack/webpack/issues/864)
 
-*[webpack 模块(Modules)](https://doc.webpack-china.org/concepts/modules/)
+* [webpack 模块(Modules)](https://doc.webpack-china.org/concepts/modules/)
 
-*[webpack 打包](https://doc.webpack-china.org/configuration/output/#output-librarytarget)
+* [webpack 打包](https://doc.webpack-china.org/configuration/output/#output-librarytarget)
 
-*[ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/)
+* [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/)
 
-*[modules](http://exploringjs.com/es6/ch_modules.html)
+* [modules](http://exploringjs.com/es6/ch_modules.html)
