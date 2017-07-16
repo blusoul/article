@@ -25,6 +25,8 @@
 
 * [自定义事件总结]()
 
+* [JavaScript 之编码](basic/encoding/index.md)
+
 * [匿名函数与具名函数](basic/function/NFE.md)
 
 * [JavaScript 排序算法](basic/sort/index.md)
