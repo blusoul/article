@@ -72,7 +72,7 @@ let listJSON = {};
 
 2. 需要获取首页的数据
 
-![2015年统计用区划代码](./img/20170513232401.png)
+![2015年统计用区划代码](https://raw.githubusercontent.com/blusoul/article/master/practise/division-code/img/20170513232401.png)
 
 上代码展示，写的比较 low
 
@@ -108,7 +108,7 @@ captureUrl(entryUrl, function (res) {
 
 3. 根据页面结构获取想要的数据，这里是链接和城市名，浏览器 f12 都能看得懂的哈~
 
-![页面结构](./img/20170513233355.png)
+![页面结构](https://raw.githubusercontent.com/blusoul/article/master/practise/division-code/img/20170513233355.png)
 
 地址是相对路径，就需要根据请求的 url 地址来拼接出下一个页面真实地址
 
@@ -265,7 +265,7 @@ function getRedirectUrl($) {
 
 在调试的过程中发现变更情况页面是表格类型，不能很方便的拿到数据并区分开来，不能只是左侧的数据需要 delete,右侧的数据 add。 我的思路是根据变更原因来分类处理，此部分代码没有写完
 
-![变更情况](./img/20170514102543.png)
+![变更情况](https://raw.githubusercontent.com/blusoul/article/master/practise/division-code/img/20170514102543.png)
 
 ## 调试
 

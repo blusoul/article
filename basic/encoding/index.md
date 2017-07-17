@@ -93,7 +93,7 @@ UTF-8 是对 Unicode 的可变长度的字符编码。使用一至六个字节�
 
 Unicode字符的码位，需要1个或者2个16位长的码元来表示，即两个字节和四个字节表示。也是一种变长的字符编码。
 
-![UTF-16](UTF-16.png)
+![UTF-16](https://raw.githubusercontent.com/blusoul/article/master/basic/encoding/img/UTF-16.png)
 
 1. **从U+0000至U+D7FF以及从U+E000至U+FFFF的码位**\
     第一个Unicode平面包含了最常用字符，该平面被称为基本多语言平面，缩写为BMP。
@@ -118,7 +118,7 @@ Unicode字符的码位，需要1个或者2个16位长的码元来表示，即两
 
 字符U+FEFF，如果出现在字节流的开头，则用来标识该字节流的字节序，是高位在前还是低位在前。主要由于不同系统对字节顺序的处理方式不一致，如一个字符十六进制编码为4E59，按照两个字节拆为 4E 和 59，MAC 读取是从低字节开始读取，就变成了594E，然后再查找对应字符。而 windows 则从高字节读取。这就凸显字节顺序的重要。因此有了大端序（Big-Endian）和小端序（Little-Endian）。字节0xFE和0xFF在UTF-8编码中从未用到，则没有字节顺序。UTF-8编码过的字节顺序标记则被用来标示它是UTF-8的文件，因此不需要BOM
 
-![Unicode-BOM](Unicode-BOM.png)
+![Unicode-BOM](https://raw.githubusercontent.com/blusoul/article/master/basic/encoding/img/Unicode-BOM.png)
 
 BOM 可以通过 [UE](https://www.ultraedit.com/) 和 [winHex](http://www.winhex.com/winhex/hex-editor.html) 以二进制方式打开对应编码的文件看到 文件最开始的 BOM。
 
@@ -126,7 +126,7 @@ BOM 可以通过 [UE](https://www.ultraedit.com/) 和 [winHex](http://www.winhex
 
 Base64是一种基于64个可打印字符来表示二进制数据的表示方法。六个比特作为一个单元，所以三个字节对应四个 Base64 单元。在 Base64 中可打印字符包括字母A-Z、a-z、数字0-9 和两个可打印符号（在不同的系统中而不同）。
 
-![Unicode-Base64](Unicode-Base64.png)
+![Unicode-Base64](https://raw.githubusercontent.com/blusoul/article/master/basic/encoding/img/Unicode-Base64.png)
 
 Unicode 字节数不能被 3 整除时，用0字节值补够足，然后再进行 Base64 编码，在其后补一到两个 ‘=’代表补足的字节数。
 
