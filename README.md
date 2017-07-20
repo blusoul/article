@@ -17,11 +17,7 @@
 
 * [1px retina 屏幕探究--未开始]()
 
-<<<<<<< HEAD
 * [垂直居中](/basic/vertical-center/index.md)
-=======
-* [垂直居中--未开始]()
->>>>>>> 99f9fb9863ce04dc5439c2abff4d3ca7d4dd1a5c
 
 * [清除浮动--未完成](/basic/clearfix/index.md)
 
