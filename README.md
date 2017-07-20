@@ -17,7 +17,7 @@
 
 * [1px retina 屏幕探究]()
 
-* [垂直居中]()
+* [垂直居中](/basic/vertical-center/index.md)
 
 * [清除浮动](/basic/clearfix/index.md)
 
