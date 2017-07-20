@@ -168,29 +168,3 @@
 ## 参考
 
 [CSS 垂直置中的七個方法](http://www.oxxostudio.tw/articles/201408/css-vertical-align.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 参考
-* [CSS 垂直置中的七個方法](http://www.oxxostudio.tw/articles/201502/css-vertical-align-7methods.html)
->>>>>>> 99f9fb9863ce04dc5439c2abff4d3ca7d4dd1a5c
