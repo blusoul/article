@@ -13,20 +13,16 @@ export function measureText({ str, limitWidth = 640, fontSize = 16, isTextIndent
 
   if (!(typeof str == 'string' && str.length)) {
     throw new Error('string must be a string')
-    return []
   };
   if (!(typeof limitWidth == 'number' && limitWidth > 0)) {
     throw new Error('string must has limit width, such as a positive number')
-    return [];
   }
   if (!(typeof fontSize == 'number' && fontSize > 0)) {
     throw new Error('string must has fontSize, such as a positive number')
-    return [];
   }
 
   if (typeof isTextIndent != 'boolean') {
     throw new Error('isTextIndent must be a boolean')
-    return [];
   }
 
   let originList = str.split('')
@@ -44,36 +40,36 @@ export function measureText({ str, limitWidth = 640, fontSize = 16, isTextIndent
     let wrapReg = /^\w|'|:$/
 
     for (var i = 0, len = arr.length; i < len; i++) {
-      if (!arr.length) return false;
+      if (!arr.length) return false
 
-      const item = arr[i];
-      const itemWidth = (measureData[item] || 10) * fontSize / 10;
+      const item = arr[i]
+      const itemWidth = (measureData[item] || 10) * fontSize / 10
 
-      width += itemWidth;
+      width += itemWidth
 
       // 换行处字符索引暂存
       if (!wrapReg.test(item)) {
-        wrapIndex = i;
+        wrapIndex = i
       }
 
       //  总字符宽度小于设定宽度 (第一行行首空两个字的距离)
       if (width < (isTextIndent && result.length == 0 ? (limitWidth - 2 * fontSize) : limitWidth)) {
-        if (i < len - 1) continue;
+        if (i < len - 1) continue
 
         // 最后不足一行
         result.push(arr.splice(0).join(''));
-        return false;
+        return false
       }
 
       // 超出限定宽度，从前一个字符换行
-      end = i - 1;
+      end = i - 1
 
       // 当前字符和下个字符都是字幕或者数字，需要从前面的非字母数字处换行
       if (wrapReg.test(item) && wrapReg.test(arr[end])) {
-        end = wrapIndex;
+        end = wrapIndex
       }
 
-      result.push(arr.splice(start, end + 1).join(''));
+      result.push(arr.splice(start, end + 1).join(''))
       
       // 递归调用
       return loopStr(arr)
